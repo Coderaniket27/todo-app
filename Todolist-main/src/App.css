@@ -1,0 +1,244 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  .inputFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .list-group {
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    padding: 10px;
+    justify-content: space-between;
+    border: none;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group-item h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .list-group-item p {
+    margin: 10px 0 0;
+    font-size: 16px;
+  }
+  
+  .list-group-item button {
+    margin-left: 10px;
+  }
+  
+  .list-group-item.completed {
+    background-color: #f2f2f2;
+  }
+  /* Extra small devices (phones, up to 576px) */
+@media (max-width: 576px) {
+    .App {
+      padding: 10px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    .list-group-item h3 {
+      font-size: 20px;
+    }
+  
+    .list-group-item p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .App {
+      padding: 20px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .App {
+      padding: 30px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .App {
+      padding: 40px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .App {
+      padding: 50px;
+    }
+  }
+  /* Small devices (portrait phones, up to 576px) */
+@media only screen and (max-width: 576px) {
+    .App {
+      padding: 10px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    .list-group-item h3 {
+      font-size: 20px;
+    }
+  
+    .list-group-item p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Medium devices (landscape phones, 576px and up) */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .App {
+      padding: 20px;
+    }
+  }
+  
+  /* Tablets and larger devices (portrait and landscape, 768px and up) */
+  @media only screen and (min-width: 769px) {
+    .App {
+      padding: 30px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .App {
+      padding: 40px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .App {
+      padding: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    /* Add your styles for mobile devices here */
+    .inputAlign{
+      width: 330px;
+    height: 40px;
+
+    }
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add your styles for tablets here */
+    .inputAlign{
+      width: 590px;
+    height: 50px;
+
+    }
+  }
+  
+  /* Styles for laptops */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add your styles for laptops here */
+    .inputAlign{
+      width: 595px;
+    height: 40px;
+
+    }
+  }
+  
+  /* Styles for desktops and larger screens */
+  @media only screen and (min-width: 1200px) {
+    .inputAlign{
+      width: 600px;
+    height: 60px;
+
+    }
+    /* Add your styles for desktops and larger screens here */
+  }
+  
